@@ -18,13 +18,14 @@ const OrderSummery = () => {
         .then(data => setOrders(data))
     }, [])
 
+  
     return (
         <Container className="mt-3">
              <ScrollToTop smooth />
             <h3 style={{color:'darkblue'}}>Order Summery: </h3>
                <Row className="mt-3">
                     {   orders.length > 0 ? 
-                        orders.map(order => <SingleOrder  order={order} />)
+                        orders.map(order => <SingleOrder  key={order.name} order={order} />)
                         :<img  className="text-center m-auto" src={spinner} alt="spinner" />
                     }
                </Row>

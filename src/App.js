@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Route, Switch
 } from "react-router-dom";
+import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import NotFound from './Components/NotFound/NotFound';
 import OrderSummery from './Components/OrderSummery/OrderSummery';
@@ -26,6 +27,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
