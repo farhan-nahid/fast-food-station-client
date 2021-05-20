@@ -22,4 +22,4 @@
 
 
 
-You can see server side code in [Fast-Food-Station-Slient](https://github.com/farhan-nahid/fast-food-station-server)
+You can see server side code in [Fast-Food-Station-Server](https://github.com/farhan-nahid/fast-food-station-server)
